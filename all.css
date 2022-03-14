@@ -91,6 +91,7 @@ video {
   font: inherit;
   vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article,
 aside,
@@ -105,17 +106,21 @@ nav,
 section {
   display: block;
 }
+
 body {
   line-height: 1;
 }
+
 ol,
 ul {
   list-style: none;
 }
+
 blockquote,
 q {
   quotes: none;
 }
+
 blockquote:before,
 blockquote:after,
 q:before,
@@ -123,6 +128,7 @@ q:after {
   content: "";
   content: none;
 }
+
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -133,21 +139,26 @@ table {
 ::before {
   box-sizing: border-box;
 }
+
 a {
   text-decoration: none;
   display: inline-block;
 }
+
 img {
   vertical-align: middle;
 }
-body{
+
+body {
   background-image: url("https://khhrdi.kcg.gov.tw/images/kh_bg8.gif");
 }
+
 .container {
-  font-size: 14px;
+  font-size: 0.875em; /* 原本 14px */
   margin: 0 auto;
   width: 960px;
 }
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -155,32 +166,40 @@ body{
   color: white;
   padding: 16px 24px;
 }
-.nav-list{
+
+.nav-list {
   display: flex;
 }
-.nav-list a{
+
+.nav-list a {
   color: white;
-  padding-left:8px;
-  padding-right:8px;
+  padding-left: 8px;
+  padding-right: 8px;
 }
+
 .image {
   width: 100%;
 }
+
 .main {
   display: flex;
 }
+
 .left-sidebar {
   width: 30%;
 }
+
 .left-list {
   background-color: #83eff1;
   padding: 16px;
   border-top: solid 5px #72dddf;
   border-bottom: solid 5px #72dddf;
 }
-.left-item{
+
+.left-item {
   border-bottom: 1px solid white;
 }
+
 .left-item a {
   color: white;
   padding: 8px 8px;
@@ -189,23 +208,29 @@ body{
   text-shadow: -1px -1px 0px #37a4a5, 0px -1px 0px #37a4a5, 1px -1px 0px #37a4a5, -1px 0px 0px #37a4a5,
     1px 0px 0px #37a4a5, -1px 1px 0px #37a4a5, 0px 1px 0px #37a4a5, 1px 1px 0px #37a4a5;
 }
+
 .center {
   width: 40%;
   padding-left: 20px;
   padding-right: 20px;
 }
+
 .right-sidebar {
   width: 30%;
 }
+
 .mb-1 {
   margin-bottom: 8px;
 }
+
 .mb-2 {
   margin-bottom: 16px;
 }
+
 .mb-3 {
   margin-bottom: 24px;
 }
+
 .btn {
   background-color: #1e57a2;
   color: white;
@@ -213,16 +238,19 @@ body{
   padding: 4px 8px;
   cursor: pointer;
 }
+
 .title {
-  font-size: 20px;
+  font-size: 1.25em; /* 原本 20px */
   border-bottom: 3px solid #2c86aa;
   padding-bottom: 10px;
 }
+
 .news-item {
   border-bottom: 1px solid #ccc;
   padding-top: 10px;
   padding-bottom: 10px;
 }
+
 .news-item a {
   color: #58656c;
   overflow: hidden;
@@ -230,9 +258,10 @@ body{
   white-space: nowrap;
   width: 100%;
 }
+
 .footer {
   padding: 16px 24px;
   text-align: center;
   background: linear-gradient(#e6e6e6, white);
-  font-size: 12px;
+  font-size: 0.75em; /* 原本 12px */
 }
